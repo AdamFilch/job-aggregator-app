@@ -49,3 +49,44 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 # job-aggregator-app
+
+
+# References
+
+https://www.reddit.com/r/webdev/comments/1ewb7wt/api_vs_rss_feeds_for_pulling_job_listings_for_a/
+https://jobdataapi.com/
+https://rapidapi.com/
+https://theirstack.com/en/job-posting-api
+https://remotive.com/remote-jobs/rss-feed
+https://fantastic.jobs/
+https://publicapis.dev/category/jobs
+https://rapidapi.com/collection/job-search-apis
+
+
+
+Try remote work job boards
+look into rss feeds
+
+look into adzuna
+
+Remotive
+Tecnoemploe
+y combinator
+infojobs
+
+
+Last resort is to use something like selenium to scrape the website html instead of the data
+
+
+
+# Flow
+
+[Your App]
+   ↓
+[Background fetcher (runs every X mins)]
+   ↓
+[Call job board APIs or RSS feeds]
+   ↓
+[Store result in SQLite DB on phone]
+   ↓
+[User browses listings in the app]
