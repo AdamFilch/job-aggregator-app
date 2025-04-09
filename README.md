@@ -64,18 +64,14 @@ https://rapidapi.com/collection/job-search-apis
 
 
 
-Try remote work job boards
 look into rss feeds
+look into adzuna API
 
-look into adzuna
-
+Last resort is to use something like selenium to scrape the website html instead of the data
 Remotive
 Tecnoemploe
 y combinator
 infojobs
-
-
-Last resort is to use something like selenium to scrape the website html instead of the data
 
 
 
@@ -90,3 +86,9 @@ Last resort is to use something like selenium to scrape the website html instead
 [Store result in SQLite DB on phone]
    ↓
 [User browses listings in the app]
+
+
+
+# Possible issue 
+
+how to get push notification?
